@@ -18,7 +18,9 @@ public class Principal extends JFrame implements ActionListener{
     private JButton b1,b2,b3,b4; 
       
 	public Principal() {
-	
+		System.out.println("Apartado que se muestra por pantalla");
+		System.out.println("Hola");
+		
 	 setTitle("Ventana INICIAL.");
      setLayout(null);
 	 setSize(450, 250);
